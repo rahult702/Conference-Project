@@ -1,0 +1,230 @@
+/* All */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    background: #293F50;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding-bottom: 40px;
+}
+
+.logo{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-top: 4px solid #648880;
+    padding-top: 30px;
+}
+
+.logo a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo a:hover{
+    color: #648880;
+}
+
+.nav2{
+    padding-top: 65px;
+}
+
+.nav2 h2{
+    color: #648880;
+    font-weight: 400;
+    font-size: 21px;
+    text-align: right;
+    padding-bottom: 22px;
+}
+
+.list1{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.list1 li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.80rem;
+}
+
+.list1 li a:hover{
+    color: #648880;
+}
+
+section{
+    width: 100%;
+    background: linear-gradient(to right, #A2D3B0, #F6F1D3);
+    padding: 44px 0 22px 0;
+}
+
+section h1{
+    font-size: 2.25rem;
+    text-align: center;
+    margin-bottom: 22px;
+    color: #648880;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+section p{
+    margin: 0 auto;
+    text-align: center;
+    width: 900px;
+    font-size: 21px;
+    color: #888;
+    margin-bottom: 22px;
+    line-height: 33px;
+}
+
+footer{
+    height: 120px;
+    background: #293F50;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 75px;
+}
+
+footer h4{
+    color: #648880;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.list2{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.list2 li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.list2 li a:hover{
+    color: #648880;
+}
+
+/* Speakers */
+
+.biodata{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.speakers{
+    display: flex;
+    gap: 50px;
+    padding: 75px 0 0 0;
+}
+
+.content{
+    width: 65%;
+}
+
+.name{
+    font-size: 1.5rem;
+    color: #648880;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.profession{
+    font-weight: 300;
+    font-size: 13px;
+    color: #648880;
+    word-spacing: 3px;
+    padding-bottom: 30px;
+}
+
+.theory, .theory2, .about-speakers{
+    color: #888;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.theory, .theory2{
+    padding-bottom: 22px;
+}
+
+.about{
+    color: #648880;
+    font-weight: 300;
+    font-size: 13px;
+    padding-bottom: 25px;
+}
+
+.link1, .link2, .link3{
+    color: #648880;
+    text-decoration: none;
+}
+
+.link1:hover, .link2:hover, .link3:hover{
+    color: #aaa;
+}
+
+.img-content{
+    width: 30%;
+    height: fit-content;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 22px;
+    margin-top: 90px;
+}
+
+.img-content img{
+    width: 125px;
+    border-radius: 50%;
+    margin: -40px 0 22px 0;
+}
+
+.link{
+    text-align: center;
+}
+
+/* Schedule */
+
+table{
+    width: 950px;
+    margin: 25px auto;
+}
+
+.tbody tr th{
+    text-align: right;
+    padding-right: 40px;
+}
+
+.thead tr td{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-head{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: right;
+    color: #648880;
+    padding-right: 40px;
+}
